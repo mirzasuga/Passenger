@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lyVoucherCode"
+    android:layout_below="@+id/tvValid"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:background="@drawable/shape_rounded_gray">
+    <TextView
+        android:id="@+id/tvVoucherCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CODE VOUCHER"
+        android:padding="@dimen/size_14dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</LinearLayout>

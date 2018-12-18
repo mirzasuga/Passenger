@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">StickPass</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">SAVE</string>
+    <string name="action_topup">TOPUP</string>
+    <string name="API_KEY_GOOGLE">AIzaSyDcS66aMy8PptfVA3YzPYjTKo_lBBeA5O0</string>
+    <string name="facebook_app_id">227562231144095</string>
+    <string name="fb_login_protocol_scheme">fb227562231144095</string>
+    <string name="internet_connection_unavailable">Internet connection unavailable</string>
+    <string name="server_error">Server error</string>
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="no_account_sign_up">No Account ? <b>Sign Up</b></string>
+    <string name="have_an_account">Have an Account ? <b>Login</b></string>
+    <string name="login_or_register">Login or Register</string>
+    <string name="alert_title">Warning</string>
+    <string name="close">Close</string>
+    <string name="cannot_be_empty">Cannot be empty</string>
+    <string name="safety">For safety reason\nplease reinput your Security Code</string>
+    <string name="wrong">Sorry, wrong code</string>
+    <string name="oops">Oops! An error occurred while approving the order. You can try again or cancel your order.</string>
+    <string name="txt_dummy_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</string>
+
+    <!--Home-->
+    <string name="my_point">My Point</string>
+    <string name="privacy">Privacy Policy</string>
+
+    <!--Bottom Navigation-->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="notification">Notification</string>
+    <string name="account">Account</string>
+
+    <!--Account-->
+    <string name="term_and_condition">Term and Condition</string>
+    <string name="give_us_rate">Give us rate</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+
+    <!--Edit Account-->
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+
+    <!--Point-->
+    <string name="value_of">Value of</string>
+    <string name="buy_voucher">Buy Voucher</string>
+    <string name="survey_list">Survey List</string>
+    <string name="my_voucher">My Voucher</string>
+    <string name="my_survey">My Survey</string>
+    <string name="redeem">Redeem</string>
+    <string name="use">Use</string>
+    <string name="valid_until">Valid until</string>
+
+    <!--Mart-->
+    <string name="enter_mart_code">Mart code</string>
+    <string name="cash">Cash</string>
+    <string name="waiting">Waiting the driver to accept your order</string>
+    <string name="cancel">Cancel</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="your_order_is_confirmed">Your order is confirmed</string>
+    <string name="order_number">Order Number</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="final_amount">Final Amount</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <!--pin-->
+    <string name="input_your_pin">Input Your PIN</string>
+    <string name="forgot_pin">Forgot PIN</string>
+    <string name="move_to_another_account">Move to another Account</string>
+
+    <!--Register Media Social-->
+    <string name="complete_your_account">Complete your account</string>
+    <string name="fullname">Fullname</string>
+    <string name="next">Next</string>
+    <string name="register">Register</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="send">Send</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="you_get">You get</string>
+    <string name="youve_get">You have get</string>
+    <string name="own_survey">Start your own survey</string>
+
+    <!--Login-->
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">Or</string>
+    <string name="description">Description</string>
+    <string name="skip">Skip</string>
+
+    <!--Order Failed-->
+    <string name="order_failed">Order Failed</string>
+    <string name="try_again">Try Again</string>
+    <string name="cancel_order">Cancel Order</string>
+
+    <!--OTP-->
+    <string name="input_otp">Input code sent to:</string>
+    <string name="not_receive">Not receive</string>
+    <string name="resend_code">Resend Code</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_input_answer">Please input your answer</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="invalid_format">Invalid format</string>
+    <string name="phone_short">Phone to sort</string>
+    <string name="field_empty">Field Empty</string>
+    <string name="pass_short">Min 6 Character</string>
+    <string name="wrong_confrm_pass">Confirm password wrong</string>
+    <string name="retry">Retry</string>
+    <string name="notification_is_empty">Notification is empty</string>
+    <string name="buy">Buy</string>
+    <string name="purchase_successfull">Purchase Successful!</string>
+    <string name="message_success_purchase">Want to use your voucher now?</string>
+    <string name="not_receiving_sms">Not receiving sms verification?</string>
+    <string name="exit_app">Press back button again to exit</string>
+    <string name="get_voucher">Get Voucher Code</string>
+    <string name="do_you_want_to_use">Do you want to use</string>
+    <string name="now">now</string>
+    <string name="are_you_sure_want_to_buy">Are you sure want to buy</string>
+</resources>

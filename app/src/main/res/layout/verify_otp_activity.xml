@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_otp"
+    tools:context="com.stickearn.stickpass.view.verify_otp.VerifyOTPActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="26dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_otp"
+            android:textColor="@color/colorBlack"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08123456789"
+            android:layout_marginBottom="@dimen/size_16dp"/>
+
+        <com.chaos.view.PinView
+            android:layout_marginTop="@dimen/size_16dp"
+            android:id="@+id/secondPinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_padding"
+            android:inputType="numberPassword"
+            android:textColor="@color/line_colors"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:lineColor="@color/line_colors"
+            app:itemRadius="@dimen/pv_pin_view_item_radius" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvError"
+            android:layout_marginTop="@dimen/size_8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorRed"/>
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_marginTop="@dimen/size_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/btn_rounded_primary"/>
+        <TextView
+            android:id="@+id/tvKet"
+            android:layout_marginTop="@dimen/size_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_receive"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvRecentCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_code"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="@dimen/size_16dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

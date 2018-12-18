@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_14dp">14dp</dimen>
+    <dimen name="size_24dp">24dp</dimen>
+    <dimen name="size_12dp">12dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_9dp">9dp</dimen>
+    <dimen name="size_8dp">8dp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_4dp">4dp</dimen>
+    <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_14sp">14sp</dimen>
+    <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_12sp">12sp</dimen>
+    <dimen name="size_10sp">10sp</dimen>
+    <dimen name="size_9sp">9sp</dimen>
+    <dimen name="size_8sp">8sp</dimen>
+    <dimen name="size_6sp">6sp</dimen>
+    <dimen name="size_4sp">4sp</dimen>
+    <dimen name="margin_pin">35dp</dimen>
+    <dimen name="number_keyboard">28sp</dimen>
+    <dimen name="pv_pin_view_item_size">48dp</dimen>
+    <dimen name="pv_pin_view_item_radius">5dp</dimen>
+    <dimen name="pv_pin_view_item_spacing">5dp</dimen>
+    <dimen name="pv_pin_view_item_line_width">2dp</dimen>
+    <dimen name="pv_pin_view_cursor_width">2dp</dimen>
+    <dimen name="common_padding">5dp</dimen>
+</resources>

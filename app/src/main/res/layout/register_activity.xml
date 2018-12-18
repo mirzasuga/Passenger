@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.stickearn.stickpass.view.login.LoginActivity">
+    <ScrollView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ly_register">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_margin="@dimen/size_14dp"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:id="@+id/tvTitle"
+            android:textColor="@color/colorBlack"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/size_16dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginTop="@dimen/size_14dp"
+                        android:src="@mipmap/ic_launcher"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/ic_person_black_24dp"
+                                android:tint="@color/colorText"
+                                tools:ignore="VectorDrawableCompat" />
+                            <EditText
+                                android:id="@+id/rgetName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapWords"
+                                android:layout_marginLeft="@dimen/size_12dp"
+                                android:hint="@string/fullname"
+                                android:background="@null"
+                                android:padding="@dimen/size_14dp"
+                                />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorGray"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/size_14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/ic_phone_black_24dp"
+                                android:tint="@color/colorText"
+                                tools:ignore="VectorDrawableCompat" />
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/size_12dp"
+                                android:padding="@dimen/size_14dp"
+                                android:enabled="false"
+                                android:background="@null"
+                                android:text="+62"/>
+                            <EditText
+                                android:id="@+id/rgetPhoneNumber"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:hint="@string/phone"
+                                android:background="@null"
+                                android:paddingTop="@dimen/size_14dp"
+                                android:paddingBottom="@dimen/size_14dp"
+                                android:paddingRight="@dimen/size_14dp"
+                                />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorGray"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/size_14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/ic_email_black_24dp"
+                                android:tint="@color/colorText"
+                                tools:ignore="VectorDrawableCompat" />
+                            <EditText
+                                android:id="@+id/rgetEmail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:hint="Email"
+                                android:background="@null"
+                                android:padding="@dimen/size_14dp"
+                                android:layout_marginLeft="@dimen/size_12dp"
+                                />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorGray"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/size_14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/ic_lock_black_24dp"
+                                tools:ignore="VectorDrawableCompat"
+                                android:tint="@color/colorText"/>
+                            <EditText
+                                android:id="@+id/rgPass"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/password"
+                                android:inputType="textPassword"
+                                android:layout_marginLeft="@dimen/size_12dp"
+                                android:padding="@dimen/size_14dp"
+                                android:background="@null"
+                                />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorGray"/>
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/size_14dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/ic_lock_black_24dp"
+                                tools:ignore="VectorDrawableCompat"
+                                android:tint="@color/colorText"/>
+                            <EditText
+                                android:id="@+id/rgConfirmPass"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/password_confirmation"
+                                android:inputType="textPassword"
+                                android:layout_marginLeft="@dimen/size_12dp"
+                                android:padding="@dimen/size_14dp"
+                                android:background="@null"
+                                />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorGray"/>
+                    </LinearLayout>
+
+
+                    <Button
+                        android:layout_marginTop="@dimen/size_24dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rgbtnRegister"
+                        android:text="@string/register"
+                        android:background="@drawable/shape_rounded_accent"
+                        style="@style/Widget.AppCompat.Button.Colored"/>
+                    <TextView
+                        android:id="@+id/rgbtnLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/have_an_account"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_14dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                    <LinearLayout
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:id="@+id/ly_or"
+                        android:layout_above="@+id/ly_bottom">
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:background="@color/colorGray"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="@dimen/size_10dp"
+                            android:paddingLeft="@dimen/size_10dp"
+                            android:text="@string/or"/>
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:background="@color/colorGray"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/size_14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ly_bottom"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/btnFacebook"
+                            android:orientation="horizontal"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:background="@drawable/btn_rounded_fb">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_facebook_icon"
+                                tools:ignore="VectorDrawableCompat" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Facebook"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                android:layout_marginLeft="@dimen/size_14dp"
+                                android:textColor="@color/colorWhite" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btnGoogle"
+                            android:layout_marginLeft="@dimen/size_14dp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:background="@drawable/btn_rounded_google"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_google"
+                                tools:ignore="VectorDrawableCompat" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Google"
+                                android:layout_marginLeft="@dimen/size_14dp"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/colorBlack" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/progress_dialog"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#462769</color>
+    <color name="colorPrimaryDark">#4527A0</color>
+    <color name="colorAccent">#Fba81c</color>
+    <color name="colorGray">#e5e5e5</color>
+    <color name="colorGrayDark">#A9A9A9</color>
+    <color name="colorGrayLight">#E0E0E0</color>
+    <color name="colorText">#6a7180</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparent">#4D000000</color>
+    <color name="colorFacebookButton">#3b5998</color>
+    <color name="colorGoogleButton">#F44336</color>
+    <color name="colorRed">#C62828</color>
+    <color name="colorGreen">#32CD32</color>
+    <color name="colorGreen600">#43A047</color>
+    <color name="transparentGray">#80e5e5e5</color>
+
+    <color name="text_focused">#E91E63</color>
+    <color name="text_default">#F8BBD0</color>
+    <color name="text_hint_default">#BDBDBD</color>
+    <color name="line_selected">#E91E63</color>
+    <color name="line_focused">#3F51B5</color>
+    <color name="line_default">#C5CAE9</color>
+
+</resources>

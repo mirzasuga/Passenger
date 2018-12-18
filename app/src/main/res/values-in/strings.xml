@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">StickPass</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_save">SIMPAN</string>
+    <string name="action_topup">TOPUP</string>
+    <string name="API_KEY_GOOGLE">AIzaSyDcS66aMy8PptfVA3YzPYjTKo_lBBeA5O0</string>
+    <string name="facebook_app_id">227562231144095</string>
+    <string name="fb_login_protocol_scheme">fb227562231144095</string>
+    <string name="internet_connection_unavailable">Koneksi internet tidak tersedia</string>
+    <string name="server_error">Server error</string>
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="no_account_sign_up">Belum punya akun ? <b>Daftar</b></string>
+    <string name="have_an_account">Punya akun ? <b>Masuk</b></string>
+    <string name="login_or_register">Masuk atau Daftar</string>
+    <string name="alert_title">Peringatan</string>
+    <string name="close">Tutup</string>
+    <string name="cannot_be_empty">Tidak bisa kosong</string>
+    <string name="safety">Untuk alasan keamanan\nmohon masukkan PIN</string>
+    <string name="wrong">Maaf, kode salah</string>
+    <string name="oops">Oops! Terjadi kesalahan saat menerima pesanan. Anda dapat mencoba lagi atau membatalkan pesanan.</string>
+    <string name="txt_dummy_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</string>
+
+    <!--Home-->
+    <string name="my_point">Poin Saya</string>
+    <string name="privacy">Kebijakan Privasi</string>
+    <string name="my_survey">Survey Saya</string>
+    <string name="survey_list">Daftar Survey</string>
+    <string name="youve_get">Anda telah dapat</string>
+
+    <!--Bottom Navigation-->
+    <string name="home">Beranda</string>
+    <string name="history">Histori</string>
+    <string name="notification">Notifikasi</string>
+    <string name="account">Akun</string>
+
+    <!--Account-->
+    <string name="term_and_condition">Syarat dan Ketentuan</string>
+    <string name="rate">Beri kami nilai</string>
+    <string name="logout">Keluar</string>
+    <string name="edit">Ubah</string>
+
+    <!--Edit Account-->
+    <string name="name">Nama</string>
+    <string name="phone">Nomor Telepon</string>
+
+    <!--Point-->
+    <string name="value_of">Senilai</string>
+    <string name="buy_voucher">Beli Voucher</string>
+    <string name="my_voucher">Voucher Saya</string>
+    <string name="redeem">Beli</string>
+    <string name="use">Pakai</string>
+    <string name="valid_until">Berlaku hingga</string>
+
+    <!--Mart-->
+    <string name="enter_mart_code">Kode mart</string>
+    <string name="cash">Tunai</string>
+    <string name="waiting">Menunggu pengemudi untuk menerima pesanan Anda</string>
+    <string name="cancel">Batal</string>
+    <string name="thank_you">Terimakasih!</string>
+    <string name="your_order_is_confirmed">Pesanan Anda terkonfirmasi</string>
+    <string name="order_number">Nomor Pesanan</string>
+    <string name="order_detail">Detil Pesanan</string>
+    <string name="payment_method">Metode Pembayaran</string>
+    <string name="final_amount">Jumlah Akhir</string>
+    <string name="back_to_home">Kembali ke Beranda</string>
+
+    <!--Register Media Social-->
+    <string name="complete_your_account">Lengkapi Akun Anda</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="next">Selanjutnya</string>
+    <string name="register">Daftar</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password">Lupa Kata Sandi</string>
+    <string name="send">Kirim</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="you_get">Anda dapat</string>
+    <string name="own_survey">Buat Surveymu Sendiri</string>
+
+    <!--Login-->
+    <string name="password">Kata Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="or">Atau</string>
+    <string name="description">Deskripsi</string>
+    <string name="skip">Lewati</string>
+
+    <!--OTP-->
+    <string name="input_otp">Masukkan kode yang dikirim ke:</string>
+    <string name="not_receive">Tidak terima</string>
+    <string name="resend_code">Kirim ulang kode</string>
+
+    <!--Order Failed-->
+    <string name="order_failed">Pesanan Gagal</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="cancel_order">Batalkan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_input_answer">Mohon berikan jawabanmu</string>
+    <string name="password_confirmation">Konfirmasi kata sandi</string>
+    <string name="invalid_format">Format salah</string>
+    <string name="phone_short">Nomor telepon terlalu singkat</string>
+    <string name="field_empty">Kolom kosong</string>
+    <string name="pass_short">Minimal 6 karakter</string>
+    <string name="wrong_confrm_pass">Konfirmasi kata sandi salah</string>
+    <string name="retry">Ulang</string>
+    <string name="notification_is_empty">Notification Kosong</string>
+    <string name="buy">Beli</string>
+    <string name="purchase_successfull">Purchase Successfull!</string>
+    <string name="message_success_purchase">Want to use your voucher now?</string>
+    <string name="not_receiving_sms">Tidak menerima sms verifikasi?</string>
+    <string name="exit_app">Tekan tombol kembali lagi untuk keluar</string>
+    <string name="get_voucher">Ambil Voucher</string>
+    <string name="do_you_want_to_use">Apakah anda mau menggunakan</string>
+    <string name="now">sekarang</string>
+    <string name="are_you_sure_want_to_buy">Apakah anda yakin ingin membeli</string>
+</resources>

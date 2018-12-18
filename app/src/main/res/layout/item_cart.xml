@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/size_16dp">
+
+    <ImageView
+        android:id="@+id/imgThumb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_water" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="7">
+
+        <TextView
+            android:id="@+id/tv_cart_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Air Mineral 500ml"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_cart_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 Point / Rp 5.000,-"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/size_6dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMin"
+        android:background="@drawable/ic_min_box"/>
+
+    <TextView
+        android:id="@+id/tv_cart_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:paddingLeft="@dimen/size_16dp"
+        android:paddingRight="@dimen/size_16dp"/>
+
+    <ImageButton
+        android:id="@+id/btnPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_add_box"/>
+
+    </LinearLayout>
+
+</LinearLayout>

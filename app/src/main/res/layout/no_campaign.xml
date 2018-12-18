@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="gone"
+    android:id="@+id/ly_notfound"
+    android:layout_below="@+id/top_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_not_interested_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <TextView
+        android:id="@+id/tvDescNoCampaign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pelaporan tidak ditemukan" />
+</LinearLayout>

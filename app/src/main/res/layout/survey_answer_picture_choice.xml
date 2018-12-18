@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:paddingTop="@dimen/size_10dp"
+    android:paddingBottom="@dimen/size_10dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvPicture"/>
+    <Button
+        android:layout_margin="@dimen/size_4dp"
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+
+        style="@style/Widget.AppCompat.Button.Colored"/>
+</LinearLayout>

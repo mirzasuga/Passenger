@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/size_10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_voucher"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:src="@drawable/survey"/>
+
+        <TextView
+            android:id="@+id/tv_voucher_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Survey Valentine's Day"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="@dimen/size_4dp"
+            android:layout_marginLeft="@dimen/size_10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyPoint"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/size_10dp"
+            android:layout_marginRight="@dimen/size_10dp"
+            android:layout_marginBottom="@dimen/size_4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valid_until"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_date_voucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/use"
+                android:layout_marginLeft="@dimen/size_4dp"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/shape_rounded_accent"
+                android:text="Use"
+                android:clickable="false"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

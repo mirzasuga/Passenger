@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/shadow_primary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:src="@drawable/scan"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_16dp"
+                android:layout_marginRight="@dimen/size_16dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size_12dp"
+                    android:elevation="@dimen/size_4dp"
+                    android:background="@color/colorWhite"
+                    app:cardCornerRadius="@dimen/size_16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/et_code"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:layout_weight="1"
+                            android:hint="@string/enter_mart_code"
+                            android:maxLines="1"
+                            android:inputType="number"
+                            android:padding="@dimen/size_14dp" />
+
+                        <ImageView
+                            android:id="@+id/ib_scan"
+                            android:layout_width="@dimen/size_24dp"
+                            android:layout_height="@dimen/size_24dp"
+                            app:srcCompat="@drawable/ic_qr_code_scan"
+                            android:layout_gravity="center"
+                            android:tint="@color/colorText"
+                            android:layout_marginRight="@dimen/size_14dp"
+                            tools:ignore="VectorDrawableCompat" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/size_10dp">
+                    <android.support.design.widget.FloatingActionButton
+                        android:visibility="visible"
+                        android:id="@+id/fab_scan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_navigate_next_black_24dp"
+                        android:tint="@color/colorWhite"
+                        tools:ignore="VectorDrawableCompat" />
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/progress_dialog"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp">
+                    </ProgressBar>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvErrorCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_16dp"
+            android:layout_marginLeft="@dimen/size_16dp"
+            android:paddingLeft="@dimen/size_12dp"
+            android:paddingRight="@dimen/size_12dp"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textColor="@color/colorRed"/>
+    </LinearLayout>
+
+</LinearLayout>

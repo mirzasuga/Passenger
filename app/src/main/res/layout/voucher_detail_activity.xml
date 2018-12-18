@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_detail_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:background="@color/colorPrimary" />
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            app:elevation="0dp"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/lyContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/size_14dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_voucher_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_10dp"
+                android:layout_marginTop="@dimen/size_4dp"
+                android:text="Survey Valentine's Day"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorBlack" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size_4dp"
+                android:layout_marginLeft="@dimen/size_10dp"
+                android:layout_marginRight="@dimen/size_10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lyPoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size_14dp"
+                    android:layout_toLeftOf="@+id/btnRedeem"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/use" />
+
+                    <TextView
+                        android:id="@+id/tv_point_redeem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/size_4dp"
+                        android:paddingRight="@dimen/size_4dp"
+                        android:text="5"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Points" />
+                </LinearLayout>
+
+                <include layout="@layout/voucher_code"
+
+                    android:visibility="gone"/>
+                <com.ebanx.swipebtn.SwipeButton
+                    android:id="@+id/swipe_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvValid"
+                    android:layout_marginTop="@dimen/size_14dp"
+                    android:visibility="visible"
+                    app:button_background="@drawable/shape_rounded_accent"
+                    app:button_bottom_padding="10dp"
+                    app:button_image_disabled="@drawable/ic_navigate_next_white_24dp"
+                    app:button_image_enabled="@drawable/ic_navigate_next_white_24dp"
+                    app:button_image_height="52dp"
+                    app:button_image_width="100dp"
+                    app:button_left_padding="10dp"
+                    app:button_right_padding="10dp"
+                    app:button_top_padding="10dp"
+                    app:button_trail_drawable="@drawable/shape_rounded_accent"
+                    app:button_trail_enabled="true"
+                    app:has_activate_state="true"
+                    app:initial_state="disabled"
+                    app:inner_text="Get Voucher"
+                    app:inner_text_background="@drawable/shape_rounded_gray"
+                    app:inner_text_bottom_padding="15dp"
+                    app:inner_text_color="@android:color/white"
+                    app:inner_text_size="16sp"
+                    app:inner_text_top_padding="15dp" />
+
+                <Button
+                    android:id="@+id/btnRedeem"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shape_rounded_accent"
+                    android:text="@string/buy"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/tvValid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lyPoint"
+                    android:layout_marginRight="@dimen/size_14dp"
+                    android:layout_toLeftOf="@+id/btnRedeem"
+                    tools:text="@string/use" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/size_14dp"
+                android:layout_marginTop="@dimen/size_14dp"
+                android:background="@color/colorGray" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorBlack" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/size_12dp"
+                        android:ellipsize="end"
+                        android:lineSpacingExtra="3dp"
+                        tools:text="@string/txt_dummy_desc" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="@dimen/size_12dp"
+                        android:layout_marginTop="@dimen/size_12dp"
+                        android:background="@color/colorGray" />
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/progress_dialog"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "560446156632",
+    "firebase_url": "https://stickpass-654da.firebaseio.com",
+    "project_id": "stickpass-654da",
+    "storage_bucket": "stickpass-654da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560446156632:android:71247994512d1da0",
+        "android_client_info": {
+          "package_name": "com.stickearn.stickpass.stickpass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560446156632-vg9rvfhqcqg81q6ldkaou0e4d412nmrl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "560446156632-kiq0l4snhsbku4d626l5rb73ofbmsm5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stickearn.stickpass.stickpass",
+            "certificate_hash": "91922f95205c6cb7b9305508452b30938d53d426"
+          }
+        },
+        {
+          "client_id": "560446156632-aavdl6ra4fbuu4csr0ioukdo2bq3jhbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcS66aMy8PptfVA3YzPYjTKo_lBBeA5O0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560446156632-vg9rvfhqcqg81q6ldkaou0e4d412nmrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560446156632:android:40085cd0a81887cc",
+        "android_client_info": {
+          "package_name": "com.stickearn.stickpass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560446156632-dcnvn7bp76ep755ng6428kiul0i4n57d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stickearn.stickpass",
+            "certificate_hash": "91922f95205c6cb7b9305508452b30938d53d426"
+          }
+        },
+        {
+          "client_id": "560446156632-vg9rvfhqcqg81q6ldkaou0e4d412nmrl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "560446156632-aavdl6ra4fbuu4csr0ioukdo2bq3jhbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcS66aMy8PptfVA3YzPYjTKo_lBBeA5O0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560446156632-vg9rvfhqcqg81q6ldkaou0e4d412nmrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="visible"
+    android:id="@+id/ly_noData"
+    android:layout_below="@+id/top_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_mail_inbox_empty"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:layout_marginTop="@dimen/size_10dp"
+        android:id="@+id/tvDescNoCampaign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_is_empty" />
+</LinearLayout>
